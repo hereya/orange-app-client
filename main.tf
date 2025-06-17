@@ -1,6 +1,4 @@
 terraform {
-  backend "s3" {}
-
   required_providers {
     random = {
       source  = "registry.terraform.io/hashicorp/random"
